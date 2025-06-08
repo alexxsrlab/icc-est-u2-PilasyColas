@@ -1,12 +1,12 @@
 package Ejercicio_01_sing;
 
-import java.util.Stack;
+import Materia.StackGeneric;
 
 public class SignValidator {
 
     public static boolean isValid(String texto) {
 
-        Stack<Character> pila = new Stack<>();
+        StackGeneric<Character> pila = new StackGeneric<>();
 
         for (int i = 0; i < texto.length(); i++) {
 

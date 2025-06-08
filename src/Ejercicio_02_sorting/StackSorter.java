@@ -1,21 +1,21 @@
 package Ejercicio_02_sorting;
 
-import java.util.Stack;
+import Materia.StackGeneric;
 
 public class StackSorter {
     
-    public static void sortStack (Stack<Integer> pila) {
+    public static void sortStack (StackGeneric<Integer> pila) {
         
-        Stack<Integer> pilaOrdenada = new Stack<>();
+        StackGeneric<Integer> pilaOrdenada = new StackGeneric<>();
 
         while (!pila.isEmpty()) {
-            int numeroActual = pila.pop();
+            int actual = pila.pop();
 
-            while (!pilaOrdenada.isEmpty() && pilaOrdenada.peek() < numeroActual) {
+            while (!pilaOrdenada.isEmpty() && pilaOrdenada.peek() > actual) {
                 pila.push(pilaOrdenada.pop());
             }
 
-            pilaOrdenada.push(numeroActual);
+            pilaOrdenada.push(actual);
         }
 
         while (!pilaOrdenada.isEmpty()) {
