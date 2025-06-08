@@ -13,9 +13,9 @@ public class App {
         String ejemplo2 = "({)}";
 
         System.out.println("Ejemplo 1 = "+ ejemplo1);
-        System.out.println("Ejemplo 1 válido: " + SignValidator.isValid(ejemplo1));
+        System.out.println("Ejemplo 1 valido: " + SignValidator.isValid(ejemplo1));
         System.out.println("Ejemplo 2 = " + ejemplo2);
-        System.out.println("Ejemplo 2 válido: " + SignValidator.isValid(ejemplo2));
+        System.out.println("Ejemplo 2 valido: " + SignValidator.isValid(ejemplo2));
         System.out.println("");
 
 
@@ -29,7 +29,7 @@ public class App {
 
         System.out.println("Pila antes de ordenar: " + pilaDeNumeros);
         StackSorter.sortStack(pilaDeNumeros);
-        System.out.println("Pila después de ordenar: " + pilaDeNumeros);
+        System.out.println("Pila despues de ordenar: " + pilaDeNumeros);
 
     }
 }

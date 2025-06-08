@@ -41,12 +41,14 @@ Ademas esta practica esta dividida en dos ejercicios:
 
 ## 🧑‍💻 Ejemplo de Salida
 
- EJERCICIO 1 
+EJERCICIO 1 
 
+- Ejemplo 1 = ([]){}
 - Ejemplo 1 válido: true
+- Ejemplo 2 = ({)}
 - Ejemplo 2 válido: false
 
- EJERCICIO 2 
+ EJERCICIO 2
 
 - Pila antes de ordenar: [50, 10, 40, 20]
 - Pila después de ordenar: [10, 20, 40, 50]
